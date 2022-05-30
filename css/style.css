@@ -67,22 +67,22 @@ ul li {
         
     }
     .list {
-        padding-left: 25%;
+        padding-left: 35%;
         font-size: 18px;
     }
 
     .container h1 {
-        font-size: 19px;
-        margin-bottom: 20px;
+        font-size: 25px;
+        margin-bottom: 30px;
     }
 
     .container {
-        width: 60%;
+        width: 70%;
         margin: auto;
         background: white;
         border-radius: 8px;
-        padding-bottom: 25px;
-        padding-top: 25px;
+        padding-bottom: 30px;
+        padding-top: 30px;
     }
 
     ul li {
@@ -97,24 +97,33 @@ ul li {
 
 @media (max-width:426px) {
     .team-card {
-        margin-top: 30px;
+        margin-top: 40px;
         margin-bottom: 30px;
     }
     ul li {
-        padding-bottom: 8px;
+        padding-bottom: 10px;
     }
 
     .container h1 {
-        font-size: 17px;
-        margin-bottom: 15px;
+        font-size: 20px;
+        margin-bottom: 30px;
     }
 
     .list {
-        padding-left: 18%;
+        padding-left: 30%;
         font-size: 18px;
     }
 
     .container .group-name {
         display: block;
+    }
+
+    .container {
+        width: 85%;
+        margin: auto;
+        background: white;
+        border-radius: 8px;
+        padding-bottom: 25px;
+        padding-top: 25px;
     }
 }
